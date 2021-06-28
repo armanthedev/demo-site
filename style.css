@@ -1,0 +1,14 @@
+*{
+    margin: 0 auto;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}

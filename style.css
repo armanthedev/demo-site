@@ -1,14 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
 *{
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',
+    sans-serif;
+    box-sizing: border-box;
+
 }
-#header{
+
+.container-full{
+    background: url(media/top-banner.png) no-repeat;
+}
+.container{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#hero-area{
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.nav-list {
+.hero-content{
+    flex-basis: 40%;
+}
+.hero-image{
+    flex-basis: 40%;
+}
+.hero-image img{
+    width: 500px;
+}
+
+.experience-wrapper{
+    background: url(media/exp-bg.png) no-repeat;
+    background-position: inherit ;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.experience-wrapper h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.experience{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    
+    justify-content: space-between;
+}
+.full-stack{
+    flex-basis: 40%;
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+
+}
+
+.baby-stack{
+    flex-basis: 40%;
+     border-left: 7px solid;
+     border-image:linear-gradient(180deg, blue, cyan);
+     border-image-slice: 1;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+span {
+    color: #f38b1f;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.hero-content h3 {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 16px;
+    background-image: linear-gradient(45deg,lightsalmon,tomato );
+    color: #fff;
+}
+
+.box-shadow{
+    background: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+
+
+    box-shadow: 3px 2px 10px 5px rgba(206, 202, 202, 0.75);
+    -webkit-box-shadow: 3px 2px 10px 5px rgba(184, 175, 175, 0.75);
+    -moz-box-shadow: 3px 2px 10px 5px rgba(184, 175, 175, 0.75);
+}
+
+.highlight-exp{
+    color:#f38b1f
+}
+
+
+footer{
+    text-align: center;
+    margin-bottom: 20px;
 }
